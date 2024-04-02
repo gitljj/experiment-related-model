@@ -11,9 +11,4 @@ Selective Laser Melting (SLM) 3D printing is a prominent additive manufacturing 
 - `/energy_model` - Contains Python scripts used to calculate the energy consumption model of the SLM 3D printer.
 - `/data_analysis` - Excel files organizing the data and results of the energy consumption calculations.
 
-## Getting Started
 
-To get started with this project, clone this repository to your local machine using:
-
-```bash
-git clone [URL to this repository]
