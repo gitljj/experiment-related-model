@@ -11,7 +11,7 @@ machine parameters
 7 columns for subprocesses: 1.ph - preheating 2.sb - scanning border 3.fc - filling contour 4.vh - volume hatching 5.ss - supports suilding 6.rc - recoating 7.co - Cooling
 
 process parameters 
-  1.minimum distance of parts,minimum distance between part and platform boundary, number of lasers, hatching distance, laser scanning speed, layer thickness, preheating time, cooling time)
+  1.minimum distance of parts,minimum distance between part and platform boundary, number of lasers, hatching distance, laser scanning speed, layer thickness, preheating time, cooling time
 
 part information
   1. type of part, number of this part type, part volume, part surface area
