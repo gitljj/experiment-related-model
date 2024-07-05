@@ -8,7 +8,7 @@ machine parameters
   2. power of different subsystems
   3. power coefficient of different subsystems (11 rows by 7 columns)
 11 rows for subsystems: 1. bs - basic subsystems 2. ht - platform heater 3. wc - water cooling unit 4. co - water circulation unit 5. lsb - laser-scanning border  6. lfc - laser-filling contour 7. lvh - laser-volume hatching 8. lss - laser-supports building 9. rm - recoater motor 10. ev - electric valves 11. gp - gas circulation pump Motor
-7 columns for subprocesses: 1.ph - preheating 2.sb - scanning border 3.fc - filling contour 4.vh - volume hatching 5.ss - supports suilding 6.rc - recoating 7.co - Cooling
+7 columns for subprocesses: 1.ph - preheating 2.sb - scanning border 3.fc - filling contour 4.vh - volume hatching 5.ss - supports suilding 6.rc - recoating 7.co - cooling
 
 process parameters 
   1.minimum distance of parts,minimum distance between part and platform boundary, number of lasers, hatching distance, laser scanning speed, layer thickness, preheating time, cooling time
