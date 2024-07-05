@@ -8,7 +8,7 @@ Selective Laser Melting (SLM) 3D printing is a prominent additive manufacturing 
 ## Repository Structure
 
 - `/stl_files` - Contains 20 STL format files representing different components or configurations used in the study.
-- `/energy_model` - Contains Python scripts used to calculate the energy consumption model of the SLM 3D printer.
-- `/data_analysis` - Excel files organizing the data and results of the energy consumption calculations.
+- `/energy_model` - Contains Python scripts and Excel file used to calculate the energy consumption model of the SLM 3D printer.
+- `/instance` - txt files organizing the data of tested instances.
 
 
