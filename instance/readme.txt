@@ -24,7 +24,7 @@ The data format is like this:
 num_parts num_orientations type_parts
 
 L W H
-power of subsystems
+power of different subsystems
 power coefficient array 
 
 min_distance_parts min_distance_part_platform num_laser hatch_distance_volume hatch_distance_support laser_speed_ border laser_speed_contour laser_speed_volume laser_speed_support layer_thickness heat_time cool_time
