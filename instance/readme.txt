@@ -15,7 +15,7 @@ process parameters
 
 part information
   1. type of part, number of this part type, part volume, part surface area
-  2. projection dimensions (length, width, height) and support structure for each part 
+  2. projection dimensions (length, width, height) and support structure for each part in different build orientation
 
 The data format is like this:
 
