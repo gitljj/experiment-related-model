@@ -5,17 +5,17 @@ instance type
 
 machine parameters
   1. build platform dimensions (length, width, height)
-  2. power consumption of various subsystems
+  2. power of different subsystems
   3. power coefficient of different subsystems (11 rows by 7 columns)
 11 rows for subsystems: 1. bs - basic subsystems 2. ht - platform heater 3. wc - water cooling unit 4. co - water circulation unit 5. lsb - laser-scanning border  6. lfc - Laser-Filling contour 7. lvh - laser-volume hatching 8. lss - laser-supports building 9. rm - recoater motor 10. ev - electric valves 11. gp - gas circulation pump Motor
 7 columns for subprocesses: 1.ph - preheating 2.sb - scanning border 3.fc - filling contour 4.vh - volume hatching 5.ss - supports suilding 6.rc - recoating 7.co - Cooling
 
 Process parameters 
-  1.(e.g.,Minimum distance of parts,minimum distance between part and platform boundary number of lasers, hatching distance, laser scanning speed, layer thickness, preheating time, cooling time)
+  1.(e.g.,Minimum distance of parts,minimum distance between part and platform boundary, number of lasers, hatching distance, laser scanning speed, layer thickness, preheating time, cooling time)
 
 part Information
   1. number of parts, part volume, part Surface area
-  2..Projection dimensions (length, width, height) and support structure for each part 
+  2. Projection dimensions (length, width, height) and support structure for each part 
 
 The data format is like this:
 
@@ -24,14 +24,14 @@ The data format is like this:
 num_parts num_ori type_parts
 
 L W H
-Power Coefficient Array 
+power coefficient array 
 min_distance_parts min_distance_part_platform num_laser hatch_distance_volume hatch_distance_support laser_speed_ border laser_speed_contour laser_speed_volume laser_speed_support layer_thickness heat_time cool_time
 
-part_type num_part1 num_orientation volume
+part_type num_part1 volume surface_area
  l w h support#orientation_1
  l w h support#orientation_2
 
-part_type num_part1 num_orientation volume
+part_type num_part1 volume surface_area
  l w h support#orientation_1
  l w h support#orientation_2
 
@@ -39,7 +39,7 @@ Suppose we have an instance below :
 
 ////////////////////////////////////////
 
-20 1 6
+6 1 2
 
 268 268 315 569.7 1122.3 713.3 1739.4 1770.92 1770.92 2022.92 2022.92 52.1 32.1 69.1 
 1 1 1 1 1 1 1
@@ -67,7 +67,7 @@ Suppose we have an instance below :
 
 The illustration is as below:
 
-num_parts=20 num_ori=1 type_parts=6
+num_parts=6 num_ori=1 type_parts=2
 
 L=268 W=268 H=315
 power_of_bs=569.7 power_of_ht=1122.3 power_of_wc=713.3 power_of_co=1739.4 power_of_lsb=1770.92 power_of_lfc=1770.92 power_of_lvh=2022.92 power_of_lss=2022.92 power_of_rm=52.1 power_of_ev=32.1 power_of_gp=69.1
