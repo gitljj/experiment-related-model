@@ -1,7 +1,7 @@
 The output text file contains the following information:
 
 instance type
-  1. number of part, number of alternative build orientation, and types of parts
+  1. number of part, number of alternative build orientation, and number of part type
 
 machine parameters
   1. build platform dimensions (length, width, height)
@@ -14,7 +14,7 @@ Process parameters
   1.minimum distance of parts,minimum distance between part and platform boundary, number of lasers, hatching distance, laser scanning speed, layer thickness, preheating time, cooling time)
 
 part Information
-  1. number of parts, part volume, part surface area
+  1. type of part, part volume, part surface area
   2. projection dimensions (length, width, height) and support structure for each part 
 
 The data format is like this:
