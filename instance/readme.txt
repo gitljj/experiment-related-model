@@ -67,7 +67,6 @@ Suppose we have an instance below :
 73.0 64.0 51.93 26353
 78.349 72.716 76.410 14668
 
-
 /////////////////////////////////////////////
 
 The illustration is as below:
