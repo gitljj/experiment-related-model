@@ -57,7 +57,7 @@ Suppose we have an instance below :
 1 1 1 1 1 1 0
 0 1 1 1 1 1 0
 
-10 10 2 0.13 0.18 730 1650 1650 1000 0.03 2115 5380 
+10 10 2 0.13 0.18 730 730 1650 1000 0.03 2115 5380 
 
 1 3 6744.0 8607.8
 57.539 24.618 18.0 1724
@@ -100,7 +100,7 @@ ev    | 1     | 1     | 1     | 1     | 1     | 1     | 0     |
 gp    | 0     | 1     | 1     | 1     | 1     | 1     | 0     |
 --------------------------------------------------------------
 
-min_distance_parts=10 min_distance_part_platform=10 num_laser=2 hatch_distance_volume=0.13 hatch_distance_support=0.18 laser_speed_border=730 laser_speed_contour=1650 laser_speed_volume=1650 laser_speed_support=1000 layer_thickness=0.03 preheat_time=2115 cool_time=5380
+min_distance_parts=10 min_distance_part_platform=10 num_laser=2 hatch_distance_volume=0.13 hatch_distance_support=0.18 laser_speed_border=730 laser_speed_contour=730 laser_speed_volume=1650 laser_speed_support=1000 layer_thickness=0.03 preheat_time=2115 cool_time=5380
 
 part_type=1 num_part=3 volume=6744.0 suface_area=8607.8
 l=57.539 w=24.618 h=18.0 support=1724 # orientation_1
