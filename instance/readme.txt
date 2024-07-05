@@ -24,7 +24,9 @@ The data format is like this:
 num_parts num_ori type_parts
 
 L W H
+power of subsystems
 power coefficient array 
+
 min_distance_parts min_distance_part_platform num_laser hatch_distance_volume hatch_distance_support laser_speed_ border laser_speed_contour laser_speed_volume laser_speed_support layer_thickness heat_time cool_time
 
 part_type num_part1 volume surface_area
@@ -41,7 +43,8 @@ Suppose we have an instance below :
 
 6 1 2
 
-268 268 315 569.7 1122.3 713.3 1739.4 1770.92 1770.92 2022.92 2022.92 52.1 32.1 69.1 
+268 268 315 
+569.7 1122.3 713.3 1739.4 1770.92 1770.92 2022.92 2022.92 52.1 32.1 69.1 
 1 1 1 1 1 1 1
 1 0.4826 0.4826 0.4826 0.4826 0.4826 0
 1 1 1 1 1 1 1
@@ -58,7 +61,6 @@ Suppose we have an instance below :
 
 1 3 6744.0 8607.8
 57.539 24.618 18.0 1724
-
 
 2 3 37635.0 17532.0
 73.0 64.0 51.93 26353
