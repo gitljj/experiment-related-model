@@ -21,7 +21,7 @@ The data format is like this:
 
 ///////////////////////////////////////////
 
-num_parts num_ori type_parts
+num_parts num_orientation type_parts
 
 L W H
 power of subsystems
