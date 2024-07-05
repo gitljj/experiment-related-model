@@ -1,7 +1,7 @@
 The output text file contains the following information:
 
 instance type
-  1. number of part, number of alternative build orientation, and number of part type
+  1. number of part, number of alternative build orientation for each part, and number of part type
 
 machine parameters
   1. build platform dimensions (length, width, height)
