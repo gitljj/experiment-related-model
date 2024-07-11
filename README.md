@@ -1,5 +1,5 @@
 # expriment-related-model
-This repository contains research and analysis on the energy consumption of Selective Laser Melting (SLM) 3D printers. The project includes detailed models calculated in Python, data organized in Excel, and 20 STL format files related to the research.
+This repository contains research and analysis on the energy consumption of Selective Laser Melting (SLM) 3D printers. The project includes detailed models calculated in Python, data organized in Excel, and 20 STL format files related to the research：The energy-aware nesting and scheduling problem on a single selective laser melting machine: mathematical model and solution approach.
 
 ## Overview
 
