@@ -7,11 +7,11 @@ machine parameters
   1. build platform dimensions (length, width, height)
   2. power of different subsystems
   3. power coefficient of different subsystems (11 rows by 7 columns)
-11 rows for subsystems: 1. bs - basic subsystems 2. ht - platform heater 3. wc - water cooling unit 4. co - water circulation unit 5. lsb - laser-scanning border  6. lfc - laser-filling contour 7. lvh - laser-volume hatching 8. lss - laser-supports building 9. rm - recoater motor 10. ev - electric valves 11. gp - gas circulation pump Motor
+11 rows for subsystems: 1. bs - basic subsystems 2. ht - platform heater 3. wc - water circulation unit 4. co - water cooling unit 5. lsb - laser-scanning border  6. lfc - laser-filling contour 7. lvh - laser-volume hatching 8. lss - laser-supports building 9. rm - recoater motor 10. ev - electric valves 11. gp - gas circulation pump Motor
 7 columns for subprocesses: 1.ph - preheating 2.sb - scanning border 3.fc - filling contour 4.vh - volume hatching 5.ss - supports suilding 6.rc - recoating 7.co - Cooling
 
 process parameters 
-  1.minimum distance of parts,minimum distance between part and platform boundary, number of lasers, hatching distance, laser scanning speed, layer thickness, preheating time, cooling time
+  1.minimum distance of parts,minimum distance between part and platform boundary, number of lasers, time of spreading a layer of powder, hatching distance, laser scanning speed, layer thickness, preheating time, cooling time
 
 part information
   1. type of part, number of this part type, part volume, part surface area
@@ -27,7 +27,7 @@ L W H
 power of different subsystems
 power coefficient array 
 
-min_distance_parts min_distance_part_platform num_laser hatch_distance_volume hatch_distance_support laser_speed_ border laser_speed_contour laser_speed_volume laser_speed_support layer_thickness heat_time cool_time
+min_distance_parts min_distance_part_platform num_laser one_layer_spreading_time hatch_distance_volume hatch_distance_support laser_speed_ border laser_speed_contour laser_speed_volume laser_speed_support layer_thickness heat_time cool_time 
 
 part_type num_part volume surface_area
  l w h support#orientation_1
@@ -57,7 +57,7 @@ Suppose we have an instance below :
 1 1 1 1 1 1 0
 0 1 1 1 1 1 0
 
-10 10 2 0.13 0.18 730 730 1650 1000 0.03 2115 5380 
+10 10 2 11 0.13 0.18 730 730 1650 1000 0.03 2115 5380 
 
 1 3 6744.0 8607.8
 57.539 24.618 18.0 1724
@@ -100,7 +100,7 @@ ev    | 1     | 1     | 1     | 1     | 1     | 1     | 0     |
 gp    | 0     | 1     | 1     | 1     | 1     | 1     | 0     |
 --------------------------------------------------------------
 
-min_distance_parts=10 min_distance_part_platform=10 num_laser=2 hatch_distance_volume=0.13 hatch_distance_support=0.18 laser_speed_border=730 laser_speed_contour=730 laser_speed_volume=1650 laser_speed_support=1000 layer_thickness=0.03 preheat_time=2115 cool_time=5380
+min_distance_parts=10 min_distance_part_platform=10 num_laser=2 one_layer_spreading_time=11 hatch_distance_volume=0.13 hatch_distance_support=0.18 laser_speed_border=730 laser_speed_contour=730 laser_speed_volume=1650 laser_speed_support=1000 layer_thickness=0.03 preheat_time=2115 cool_time=5380 
 
 part_type=1 num_part=3 volume=6744.0 suface_area=8607.8
 l=57.539 w=24.618 h=18.0 support=1724 # orientation_1
